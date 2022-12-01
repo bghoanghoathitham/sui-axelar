@@ -25,9 +25,9 @@ module axelar::counter {
         })
     }
 
-    /// Increment a counter by 1.
+    /// Increment a counter by 2.
     public entry fun increment(counter: &mut Counter) {
-        counter.value = counter.value + 1;
+        counter.value = counter.value + 2;
     }
 
     /// Assert a value for the counter.
